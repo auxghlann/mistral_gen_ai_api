@@ -147,3 +147,7 @@ test/
 .devdbrc
 
 .vercel
+
+
+# ignore test folder
+test/
