@@ -21,10 +21,6 @@ def generate_response(prompt: Prompt) -> dict:
                 "status_code": 200,
                 "response": output
             }
-
-        else:
-            raise HTTPException(status_code=400, detail="Bad Request")
-    
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
