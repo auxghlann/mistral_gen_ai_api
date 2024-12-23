@@ -1,1 +1,1 @@
-# My Fast-API code template for my future projects V.1
+# A simple gen Ai project using mistral AI from huggingface
