@@ -8,7 +8,7 @@ app.include_router(response_router)
 def root():
     return {
         "hello": "world",
-        "About": "This is a simple LLM gen AI project using Mistral from hugging face",
+        "About": "This is a simple LLM gen AI project using Mistral from huggingface",
         "Author": "auxghlann",
     }
 
