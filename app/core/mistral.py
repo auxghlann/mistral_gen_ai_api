@@ -2,6 +2,9 @@ from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
 import os
 
+
+load_dotenv()
+
 class Mistral:
     
     __client = None
